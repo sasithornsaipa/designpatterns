@@ -1,4 +1,4 @@
-package csku.adapterpattern;
+package csku.models;
 
 public class GooseAdapter implements Quackable {
     Goose goose;

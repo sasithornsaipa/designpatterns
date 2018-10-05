@@ -1,4 +1,4 @@
-package csku.adapterpattern;
+package csku.models;
 
 public class PigeonAdapter implements Quackable{
     Pigeon pigeon;

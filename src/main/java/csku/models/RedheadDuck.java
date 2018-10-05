@@ -1,4 +1,4 @@
-package csku.adapterpattern;
+package csku.models;
 
 public class RedheadDuck implements Quackable {
     public void quack() {
