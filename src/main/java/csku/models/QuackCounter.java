@@ -10,7 +10,9 @@ public class QuackCounter implements Quackable {
 
     public void quack() {
         duck.quack();
-        if (duck.getClass().getName().contains("Duck")){
+        if (!duck.getClass().getName().equalsIgnoreCase("goose") ||
+            !duck.getClass().getName().equalsIgnoreCase("pigeon") ||
+            !duck.getClass().getName().equalsIgnoreCase("RubberDuck")){
             numOfQuacks++;
         }
     }

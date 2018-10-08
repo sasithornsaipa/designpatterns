@@ -9,7 +9,7 @@ public class QuackEcho implements Quackable {
 
     public void quack() {
         duck.quack();
-        System.out.println("Echo");
+        System.out.print("Echo: ");
         duck.quack();
     }
 }
